@@ -65,3 +65,17 @@ button:active {
     box-shadow: 0 5px #7b7b7b7b;
     transform: translateY(4px);
   }
+
+@media only screen and (max-width: 428px) { /* iPhone 14 Pro viewport width */
+    * {
+        font-size: 16px; /* Hier die gewünschte Schriftgröße für kleinere Viewports einstellen */
+    }
+
+    header {
+        font-size: 18px; /* Hier die gewünschte Schriftgröße für den Header anpassen */
+    }
+
+    button {
+        font-size: 16px; /* Hier die gewünschte Schriftgröße für die Buttons anpassen */
+    }
+}
