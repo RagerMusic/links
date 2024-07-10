@@ -10,14 +10,14 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; /* Verhindert Scrollen */
 }
 
 #background {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: -1;
+    background-attachment: fixed; /* Fixieren Sie den Hintergrund */
 }
 
 #logo {
@@ -59,7 +59,10 @@ header {
     background-color: rgba(255, 255, 255, 0.1); /* Ändert die Hintergrundfarbe beim Hover */
 }
 
-
+h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
 
 main {
     align-items: center;
